@@ -1,0 +1,32 @@
+﻿Create an empty blank single page iOS application.
+Now delete Main.Storyboard and RootViewController.
+Also delete/ clear info present in Info.Plist file --> Deployment Info section --> Main Interface
+keep this section blank.
+
+Now in AppDelegate.cs file
+in FinishedLaunching method
+create a window, then a UIViewController and a UINavigationController
+set UIViewController as a RootViewController as following :
+
+public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
+        {
+            // Override point for customization after application launch.
+            // If not required for your application you can safely delete this method
+
+            Window = new UIWindow(UIScreen.MainScreen.Bounds);
+
+            var controller = new UIViewController();
+            controller.View.BackgroundColor = UIColor.Gray;
+            controller.Title = "My First Controller";
+
+            var navController = new UINavigationController(controller);
+
+            Window.RootViewController = navController;
+
+            Window.MakeKeyAndVisible();
+
+            return true;
+        }
+
+This is how to create a app Ui with code in xamarin.iOS
+
