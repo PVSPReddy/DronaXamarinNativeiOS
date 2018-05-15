@@ -7,11 +7,12 @@
 using Foundation;
 using System;
 using System.CodeDom.Compiler;
+using UIKit;
 
 namespace BasicApplicationAsInTutorial
 {
-    [Register ("ViewController")]
-    partial class ViewController
+    [Register ("SingleViewStoryBoardController")]
+    partial class SingleViewStoryBoardController
     {
         void ReleaseDesignerOutlets ()
         {

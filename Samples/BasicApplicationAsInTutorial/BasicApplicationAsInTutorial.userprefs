@@ -1,7 +1,12 @@
 ﻿<Properties StartupConfiguration="{1BB568C5-674B-42FC-B636-14C081DCF6DF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BasicApplicationAsInTutorial/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BasicApplicationAsInTutorial/Views/SingleVIewExample/SingleViewStoryBoard.storyboard">
     <Files>
-      <File FileName="BasicApplicationAsInTutorial/AppDelegate.cs" Line="14" Column="10" />
+      <File FileName="BasicApplicationAsInTutorial/AppDelegate.cs" Line="25" Column="10" />
+      <File FileName="BasicApplicationAsInTutorial/Main.cs" Line="1" Column="1" />
+      <File FileName="BasicApplicationAsInTutorial/ViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="BasicApplicationAsInTutorial/ViewController.cs" Line="7" Column="59" />
+      <File FileName="BasicApplicationAsInTutorial/Views/SingleVIewExample/SingleViewStoryBoardController.cs" Line="11" Column="10" />
+      <File FileName="BasicApplicationAsInTutorial/Views/SingleVIewExample/SingleViewStoryBoard.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
