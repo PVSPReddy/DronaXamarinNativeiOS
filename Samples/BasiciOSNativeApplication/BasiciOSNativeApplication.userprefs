@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{190DDB22-0AF1-445C-9787-9BF97644E98E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BasiciOSNativeApplication/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BasiciOSNativeApplication/Views/MultiViewsToController.cs">
     <Files>
       <File FileName="BasiciOSNativeApplication/AppDelegate.cs" Line="18" Column="9" />
       <File FileName="BasiciOSNativeApplication/Info.plist" />
       <File FileName="BasiciOSNativeApplication/Views/SecondTrailViewController.cs" Line="32" Column="1" />
-      <File FileName="BasiciOSNativeApplication/Views/MultiViewsToController.cs" Line="20" Column="13" />
+      <File FileName="BasiciOSNativeApplication/Views/MultiViewsToController.cs" Line="17" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
