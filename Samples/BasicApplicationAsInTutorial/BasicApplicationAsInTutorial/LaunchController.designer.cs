@@ -11,11 +11,8 @@ using UIKit;
 
 namespace BasicApplicationAsInTutorial
 {
-    [Register ("SingleViewStoryBoardController")]
-    partial class SingleViewStoryBoardController
+    [Register ("LaunchController")]
+    partial class LaunchController
     {
-        void ReleaseDesignerOutlets ()
-        {
-        }
     }
 }

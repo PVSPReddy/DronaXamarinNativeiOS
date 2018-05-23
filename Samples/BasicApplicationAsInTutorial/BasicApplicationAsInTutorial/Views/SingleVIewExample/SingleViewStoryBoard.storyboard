@@ -1,69 +1,91 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="221">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="220">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController id="221" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
-                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                        <viewControllerLayoutGuide type="top" id="218"/>
+                        <viewControllerLayoutGuide type="bottom" id="219"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="222">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="197" translatesAutoresizingMaskIntoConstraints="NO" text="Enter User Name" misplaced="YES" ambiguous="YES">
-                                <rect key="frame" x="46" y="142" width="321" height="24"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="198" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Enter User Name">
-                                <rect key="frame" x="42" y="174" width="329" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="421" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Enter User Name" misplaced="YES">
+                                <rect key="frame" x="36" y="149" width="341" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="647" firstItem="421" firstAttribute="height" constant="30"/>
+                                </constraints>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="199" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Enter User Password">
-                                <rect key="frame" x="42" y="271" width="329" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="200" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Enter User Password">
-                                <rect key="frame" x="42" y="239" width="329" height="24"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="422" translatesAutoresizingMaskIntoConstraints="NO" text="Enter User Name">
+                                <rect key="frame" x="38" y="106" width="338" height="35"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <constraints>
+                                    <constraint id="630" firstItem="422" firstAttribute="height" constant="35"/>
+                                </constraints>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="201" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="20" y="480" width="374" height="30"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="423" translatesAutoresizingMaskIntoConstraints="NO" text="Enter User Password">
+                                <rect key="frame" x="38" y="217" width="338" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <constraints>
+                                    <constraint id="653" firstItem="423" firstAttribute="height" constant="35"/>
+                                </constraints>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="424" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Enter User Password">
+                                <rect key="frame" x="38" y="260" width="338" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="660" firstItem="424" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="425" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="112" y="518" width="190" height="30"/>
                                 <state key="normal" title="Submit"/>
+                                <constraints>
+                                    <constraint id="662" firstItem="425" firstAttribute="height" constant="30"/>
+                                    <constraint id="663" firstItem="425" firstAttribute="width" constant="190"/>
+                                </constraints>
                             </button>
                         </subviews>
                         <constraints>
-                            <constraint id="454" firstItem="197" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX"/>
-                            <constraint id="455" firstItem="197" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="26"/>
-                            <constraint id="456" firstItem="Ze5-6b-2t3" firstAttribute="trailingMargin" secondItem="197" secondAttribute="trailing" constant="27"/>
+                            <constraint id="626" firstItem="422" firstAttribute="centerX" secondItem="222" secondAttribute="centerX"/>
+                            <constraint id="627" firstItem="422" firstAttribute="leading" secondItem="222" secondAttribute="leadingMargin" constant="18"/>
+                            <constraint id="628" firstItem="222" firstAttribute="trailingMargin" secondItem="422" secondAttribute="trailing" constant="18"/>
+                            <constraint id="629" firstItem="422" firstAttribute="top" secondItem="218" secondAttribute="bottom" constant="86"/>
+                            <constraint id="636" firstItem="421" firstAttribute="centerX" secondItem="222" secondAttribute="centerX"/>
+                            <constraint id="637" firstItem="222" firstAttribute="trailingMargin" secondItem="421" secondAttribute="trailing" constant="16"/>
+                            <constraint id="638" firstItem="421" firstAttribute="leading" secondItem="222" secondAttribute="leadingMargin" constant="16"/>
+                            <constraint id="648" firstItem="421" firstAttribute="top" secondItem="218" secondAttribute="bottom" constant="129"/>
+                            <constraint id="650" firstItem="423" firstAttribute="centerX" secondItem="222" secondAttribute="centerX"/>
+                            <constraint id="651" firstItem="423" firstAttribute="leading" secondItem="222" secondAttribute="leadingMargin" constant="18"/>
+                            <constraint id="652" firstItem="222" firstAttribute="trailingMargin" secondItem="423" secondAttribute="trailing" constant="18"/>
+                            <constraint id="654" firstItem="423" firstAttribute="top" secondItem="218" secondAttribute="bottom" constant="197"/>
+                            <constraint id="656" firstItem="424" firstAttribute="centerX" secondItem="222" secondAttribute="centerX"/>
+                            <constraint id="657" firstItem="424" firstAttribute="leading" secondItem="222" secondAttribute="leadingMargin" constant="18"/>
+                            <constraint id="658" firstItem="222" firstAttribute="trailingMargin" secondItem="424" secondAttribute="trailing" constant="18"/>
+                            <constraint id="659" firstItem="424" firstAttribute="top" secondItem="218" secondAttribute="bottom" constant="240"/>
+                            <constraint id="661" firstItem="425" firstAttribute="centerX" secondItem="222" secondAttribute="centerX"/>
+                            <constraint id="664" firstItem="425" firstAttribute="top" secondItem="424" secondAttribute="bottom" constant="228"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="textViewUName" destination="197" id="name-outlet-197"/>
-                        <outlet property="textViewUPassword" destination="200" id="name-outlet-200"/>
-                        <outlet property="textFieldUPassword" destination="199" id="name-outlet-199"/>
-                        <outlet property="textFieldUName" destination="198" id="name-outlet-198"/>
-                        <outlet property="buttonSubmit" destination="201" id="name-outlet-201"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="223" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="8" y="-153"/>
         </scene>
     </scenes>
 </document>

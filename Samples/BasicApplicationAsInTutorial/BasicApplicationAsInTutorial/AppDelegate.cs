@@ -21,6 +21,49 @@ namespace BasicApplicationAsInTutorial
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
 
+
+
+            // Override point for customization after application launch.
+            // If not required for your application you can safely delete this method
+
+            //Trail One and this is successful now lets do the secong trail
+            /*
+            Window = new UIWindow(UIScreen.MainScreen.Bounds);
+            var controller = new UIViewController();
+            controller.View.BackgroundColor = UIColor.Gray;
+            controller.Title = "My First Controller";
+            var navController = new UINavigationController(controller);
+            Window.RootViewController = navController;
+            Window.MakeKeyAndVisible();
+            */
+
+
+            //Trail Two
+            /*
+            Window = new UIWindow(UIScreen.MainScreen.Bounds);
+
+            var secondController = new SecondTrailViewController();
+
+            var navController = new UINavigationController(secondController);
+
+            Window.RootViewController = navController;
+
+            Window.MakeKeyAndVisible();
+            */
+
+
+            /*
+            UIStoryboard storyboard = UIStoryboard.FromName("MyStoryBoardName", null);
+
+            MyCustomViewController controller = (MyCustomViewController)storyboard.InstantiateViewController("MyCustomViewControllersName");
+
+            NavigationController.PushViewController(controller, true);
+            */
+
+            //UIStoryboard storyboard = UIStoryboard.FromName("SingleViewStoryBoard", null);
+            //SingleViewStoryBoardController controller = (SingleViewStoryBoardController)storyboard.InstantiateViewController("SingleViewStoryBoardController");
+            //Window.RootViewController = controller;
+
             return true;
         }
 

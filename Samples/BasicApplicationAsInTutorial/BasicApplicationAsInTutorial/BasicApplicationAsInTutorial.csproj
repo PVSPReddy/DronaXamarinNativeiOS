@@ -99,6 +99,7 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="Preface.txt" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -107,9 +108,9 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\SingleVIewExample\SingleViewStoryBoardController.cs" />
-    <Compile Include="Views\SingleVIewExample\SingleViewStoryBoardController.designer.cs">
-      <DependentUpon>SingleViewStoryBoardController.cs</DependentUpon>
+    <Compile Include="LaunchController.cs" />
+    <Compile Include="LaunchController.designer.cs">
+      <DependentUpon>LaunchController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

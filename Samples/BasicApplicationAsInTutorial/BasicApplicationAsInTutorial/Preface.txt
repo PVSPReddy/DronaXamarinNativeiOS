@@ -1,0 +1,5 @@
+﻿Create a nativ iOS appliaction then
+Right click on the folder to create a storyboard
+The default is main.storyboard.
+This can be changed to the desired storyboard in "info.plist" in "deployment info" in "main interface" set the name of the desired story board.
+This acts as the startup page of the application.
